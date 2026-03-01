@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: bridge-bank
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bridgebank
+    username: bridge
+    password: bridge123
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
