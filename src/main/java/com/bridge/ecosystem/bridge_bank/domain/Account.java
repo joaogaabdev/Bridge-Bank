@@ -1,5 +1,4 @@
-package com.bridge.ecosystem.bridge_bank.domain.account;
-import com.bridge.ecosystem.bridge_bank.domain.user.User;
+package com.bridge.ecosystem.bridge_bank.domain;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
